@@ -1,0 +1,110 @@
+.input{
+  padding-left: 55px;
+  padding-right: 55px;
+  margin-left: 40%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: transparent;
+  color: antiquewhite;
+  align-items: left;
+  text-align: left;
+}
+
+.App{
+  background: #111
+}
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat";
+}
+.container {
+
+  min-height: 0vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  background-color: #111;
+}
+.timeline {
+  width: 80%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.timeline ul {
+  list-style: none;
+  margin-top: 10px;
+  margin-bottom: 1px;
+}
+.timeline ul li {
+  padding: 20px;
+  background-color: #1e1f22;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 0px;
+}
+.timeline ul li:last-child {
+  margin-bottom: 0;
+}
+.timeline-content h1 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.timeline-content p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 300;
+}
+.timeline-content .date {
+  font-size: 12px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.navbar{
+  display: flex;
+  background: #3F4E4F;
+  margin-bottom: 10px;
+}
+
+.navbar img{
+  margin-left: 16px;
+  margin-right: 10px;
+}
+
+.brand-name h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: lightcoral;
+  margin-top: 5%;
+}
+
+.link{
+  text-decoration: none;
+  color: aquamarine;
+}
+
+@media screen and (max-width: 992px) {
+  .input{
+    margin-left: 30%;
+    ;
+  }
+}
+
+
+
